@@ -44,7 +44,7 @@ public class VendorController {
 	    }
 
 	    @DeleteMapping("/vendors/{vendorId}")
-	    public HttpStatus deleteProduct(@PathVariable int vendorId) {
+	    public HttpStatus deleteVendor(@PathVariable int vendorId) {
 	        this.vendorService.deleteVendor(vendorId);
 	        return HttpStatus.OK;
 	    }
