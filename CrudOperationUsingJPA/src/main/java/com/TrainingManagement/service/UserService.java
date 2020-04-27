@@ -7,7 +7,8 @@ import com.TrainingManagement.models.User;
 public interface UserService {
 	
 	public List<User> getAllUser();
-	public User getUserById(int empId);
+	public User getUserByUserName(String empName);
+
 	public User validate(int empId,String password);
 
 }

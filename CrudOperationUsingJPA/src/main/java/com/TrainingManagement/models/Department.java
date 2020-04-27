@@ -37,6 +37,10 @@ public class Department {
 		this.deptId = deptId;
 		this.deptName = deptName;
 	}
+	public Department()
+	{
+		
+	}
 
 	@Override
 	public String toString() {

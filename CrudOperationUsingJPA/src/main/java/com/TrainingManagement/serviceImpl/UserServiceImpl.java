@@ -34,9 +34,8 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User getUserById(int empId) {
-		Optional<User> userDb = this.userRepository.findById(empId);
-		return userDb.get();
+	public User getUserByUserName(String empName) {
+		return null;
 
 	}
 
